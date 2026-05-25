@@ -1,0 +1,7 @@
+default_owner: SOC Tier 2
+sla_minutes:
+  critical: 15
+  high: 30
+  medium: 120
+  low: 480
+

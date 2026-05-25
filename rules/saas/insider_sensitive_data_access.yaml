@@ -1,0 +1,11 @@
+rule_id: rule_insider_sensitive_data_access
+title: Insider Sensitive Data Access
+description: Detects synthetic insider sensitive data access activity.
+log_source: saas_audit_logs
+detection_logic: scenario_type == 'insider_sensitive_data_access' or source-specific
+  threshold pattern
+severity: critical
+tactic: Collection
+technique: Data from Local System
+false_positive_notes: Synthetic benign admin activity can resemble this pattern.
+recommended_response: Escalate to insider risk team.

@@ -1,0 +1,11 @@
+rule_id: rule_dormant_account_reactivation
+title: Dormant Account Reactivation
+description: Detects synthetic dormant account reactivation activity.
+log_source: identity_auth_logs
+detection_logic: scenario_type == 'dormant_account_reactivation' or source-specific
+  threshold pattern
+severity: medium
+tactic: Initial Access
+technique: Dormant Account
+false_positive_notes: Synthetic benign admin activity can resemble this pattern.
+recommended_response: Disable dormant account pending owner review.

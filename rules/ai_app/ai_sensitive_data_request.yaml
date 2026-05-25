@@ -1,0 +1,11 @@
+rule_id: rule_ai_sensitive_data_request
+title: Ai Sensitive Data Request
+description: Detects synthetic ai sensitive data request activity.
+log_source: ai_app_security_logs
+detection_logic: scenario_type == 'ai_sensitive_data_request' or source-specific threshold
+  pattern
+severity: high
+tactic: Collection
+technique: Data from Information Repositories
+false_positive_notes: Synthetic benign admin activity can resemble this pattern.
+recommended_response: Deny response and review data access policy.

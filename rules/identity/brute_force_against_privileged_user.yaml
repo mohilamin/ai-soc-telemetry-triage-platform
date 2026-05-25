@@ -1,0 +1,11 @@
+rule_id: rule_brute_force_against_privileged_user
+title: Brute Force Against Privileged User
+description: Detects synthetic brute force against privileged user activity.
+log_source: identity_auth_logs
+detection_logic: scenario_type == 'brute_force_against_privileged_user' or source-specific
+  threshold pattern
+severity: critical
+tactic: Credential Access
+technique: Brute Force
+false_positive_notes: Synthetic benign admin activity can resemble this pattern.
+recommended_response: Lock privileged account and rotate credentials.

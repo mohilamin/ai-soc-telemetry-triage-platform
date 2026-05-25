@@ -1,0 +1,202 @@
+[
+  {
+    "incident_id": "incident_00011",
+    "affected_users": "user_0012",
+    "affected_assets": "endpoint_0012",
+    "affected_data_products": "security_telemetry",
+    "affected_business_units": "Security",
+    "sensitive_data_exposure_flag": false,
+    "estimated_records_at_risk": 2500,
+    "blast_radius_score": 100
+  },
+  {
+    "incident_id": "incident_00003",
+    "affected_users": "user_0004",
+    "affected_assets": "endpoint_0004",
+    "affected_data_products": "security_telemetry",
+    "affected_business_units": "Security",
+    "sensitive_data_exposure_flag": false,
+    "estimated_records_at_risk": 2500,
+    "blast_radius_score": 100
+  },
+  {
+    "incident_id": "incident_00005",
+    "affected_users": "user_0006",
+    "affected_assets": "endpoint_0006",
+    "affected_data_products": "security_telemetry",
+    "affected_business_units": "Security",
+    "sensitive_data_exposure_flag": false,
+    "estimated_records_at_risk": 2500,
+    "blast_radius_score": 100
+  },
+  {
+    "incident_id": "incident_00007",
+    "affected_users": "user_0008",
+    "affected_assets": "endpoint_0008",
+    "affected_data_products": "customer_360",
+    "affected_business_units": "Security",
+    "sensitive_data_exposure_flag": true,
+    "estimated_records_at_risk": 2500,
+    "blast_radius_score": 100
+  },
+  {
+    "incident_id": "incident_00017",
+    "affected_users": "user_0018",
+    "affected_assets": "endpoint_0018",
+    "affected_data_products": "security_telemetry",
+    "affected_business_units": "Security",
+    "sensitive_data_exposure_flag": false,
+    "estimated_records_at_risk": 2500,
+    "blast_radius_score": 100
+  },
+  {
+    "incident_id": "incident_00016",
+    "affected_users": "user_0017",
+    "affected_assets": "endpoint_0017",
+    "affected_data_products": "security_telemetry",
+    "affected_business_units": "Security",
+    "sensitive_data_exposure_flag": false,
+    "estimated_records_at_risk": 2500,
+    "blast_radius_score": 100
+  },
+  {
+    "incident_id": "incident_00010",
+    "affected_users": "user_0011",
+    "affected_assets": "endpoint_0011",
+    "affected_data_products": "security_telemetry",
+    "affected_business_units": "Security",
+    "sensitive_data_exposure_flag": false,
+    "estimated_records_at_risk": 2500,
+    "blast_radius_score": 100
+  },
+  {
+    "incident_id": "incident_00015",
+    "affected_users": "user_0016",
+    "affected_assets": "endpoint_0016",
+    "affected_data_products": "customer_360",
+    "affected_business_units": "Security",
+    "sensitive_data_exposure_flag": true,
+    "estimated_records_at_risk": 2500,
+    "blast_radius_score": 100
+  },
+  {
+    "incident_id": "incident_00013",
+    "affected_users": "user_0014",
+    "affected_assets": "endpoint_0014",
+    "affected_data_products": "security_telemetry",
+    "affected_business_units": "Security",
+    "sensitive_data_exposure_flag": false,
+    "estimated_records_at_risk": 2125,
+    "blast_radius_score": 85
+  },
+  {
+    "incident_id": "incident_00019",
+    "affected_users": "user_0020",
+    "affected_assets": "endpoint_0020",
+    "affected_data_products": "security_telemetry",
+    "affected_business_units": "Security",
+    "sensitive_data_exposure_flag": false,
+    "estimated_records_at_risk": 2125,
+    "blast_radius_score": 85
+  },
+  {
+    "incident_id": "incident_00018",
+    "affected_users": "user_0019",
+    "affected_assets": "endpoint_0019",
+    "affected_data_products": "security_telemetry",
+    "affected_business_units": "Security",
+    "sensitive_data_exposure_flag": false,
+    "estimated_records_at_risk": 2125,
+    "blast_radius_score": 85
+  },
+  {
+    "incident_id": "incident_00014",
+    "affected_users": "user_0015",
+    "affected_assets": "endpoint_0015",
+    "affected_data_products": "customer_360",
+    "affected_business_units": "Security",
+    "sensitive_data_exposure_flag": true,
+    "estimated_records_at_risk": 2125,
+    "blast_radius_score": 85
+  },
+  {
+    "incident_id": "incident_00001",
+    "affected_users": "user_0002",
+    "affected_assets": "endpoint_0002",
+    "affected_data_products": "security_telemetry",
+    "affected_business_units": "Security",
+    "sensitive_data_exposure_flag": false,
+    "estimated_records_at_risk": 2125,
+    "blast_radius_score": 85
+  },
+  {
+    "incident_id": "incident_00012",
+    "affected_users": "user_0013",
+    "affected_assets": "endpoint_0013",
+    "affected_data_products": "security_telemetry",
+    "affected_business_units": "Security",
+    "sensitive_data_exposure_flag": false,
+    "estimated_records_at_risk": 2125,
+    "blast_radius_score": 85
+  },
+  {
+    "incident_id": "incident_00002",
+    "affected_users": "user_0003",
+    "affected_assets": "endpoint_0003",
+    "affected_data_products": "security_telemetry",
+    "affected_business_units": "Security",
+    "sensitive_data_exposure_flag": false,
+    "estimated_records_at_risk": 2125,
+    "blast_radius_score": 85
+  },
+  {
+    "incident_id": "incident_00009",
+    "affected_users": "user_0010",
+    "affected_assets": "endpoint_0010",
+    "affected_data_products": "security_telemetry",
+    "affected_business_units": "Security",
+    "sensitive_data_exposure_flag": false,
+    "estimated_records_at_risk": 2125,
+    "blast_radius_score": 85
+  },
+  {
+    "incident_id": "incident_00006",
+    "affected_users": "user_0007",
+    "affected_assets": "endpoint_0007",
+    "affected_data_products": "security_telemetry",
+    "affected_business_units": "Security",
+    "sensitive_data_exposure_flag": false,
+    "estimated_records_at_risk": 2125,
+    "blast_radius_score": 85
+  },
+  {
+    "incident_id": "incident_00004",
+    "affected_users": "user_0005",
+    "affected_assets": "endpoint_0005",
+    "affected_data_products": "security_telemetry",
+    "affected_business_units": "Security",
+    "sensitive_data_exposure_flag": false,
+    "estimated_records_at_risk": 2125,
+    "blast_radius_score": 85
+  },
+  {
+    "incident_id": "incident_00008",
+    "affected_users": "user_0009",
+    "affected_assets": "endpoint_0009",
+    "affected_data_products": "security_telemetry",
+    "affected_business_units": "Security",
+    "sensitive_data_exposure_flag": false,
+    "estimated_records_at_risk": 1500,
+    "blast_radius_score": 60
+  },
+  {
+    "incident_id": "incident_00020",
+    "affected_users": "user_0021",
+    "affected_assets": "endpoint_0021",
+    "affected_data_products": "security_telemetry",
+    "affected_business_units": "Security",
+    "sensitive_data_exposure_flag": false,
+    "estimated_records_at_risk": 1500,
+    "blast_radius_score": 60
+  }
+]

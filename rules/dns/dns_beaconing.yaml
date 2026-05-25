@@ -1,0 +1,10 @@
+rule_id: rule_dns_beaconing
+title: Dns Beaconing
+description: Detects synthetic dns beaconing activity.
+log_source: dns_logs
+detection_logic: scenario_type == 'dns_beaconing' or source-specific threshold pattern
+severity: high
+tactic: Command and Control
+technique: Application Layer Protocol
+false_positive_notes: Synthetic benign admin activity can resemble this pattern.
+recommended_response: Block domain and inspect endpoint.

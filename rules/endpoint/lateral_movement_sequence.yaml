@@ -1,0 +1,11 @@
+rule_id: rule_lateral_movement_sequence
+title: Lateral Movement Sequence
+description: Detects synthetic lateral movement sequence activity.
+log_source: endpoint_events
+detection_logic: scenario_type == 'lateral_movement_sequence' or source-specific threshold
+  pattern
+severity: critical
+tactic: Lateral Movement
+technique: Remote Services
+false_positive_notes: Synthetic benign admin activity can resemble this pattern.
+recommended_response: Isolate hosts and disable lateral credentials.

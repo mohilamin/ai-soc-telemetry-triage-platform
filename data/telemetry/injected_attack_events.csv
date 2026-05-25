@@ -1,0 +1,21 @@
+event_id,timestamp,source_log,user_id,asset_id,scenario_type,severity,evidence
+attack_evt_0001,2026-01-02T01:00:00+00:00,identity_auth_logs,user_0002,endpoint_0002,impossible_travel_login,high,Synthetic injected scenario for impossible travel login.
+attack_evt_0002,2026-01-02T01:01:00+00:00,identity_auth_logs,user_0003,endpoint_0003,password_spray_attack,high,Synthetic injected scenario for password spray attack.
+attack_evt_0003,2026-01-02T01:02:00+00:00,identity_auth_logs,user_0004,endpoint_0004,brute_force_against_privileged_user,critical,Synthetic injected scenario for brute force against privileged user.
+attack_evt_0004,2026-01-02T01:03:00+00:00,identity_auth_logs,user_0005,endpoint_0005,suspicious_mfa_fatigue,high,Synthetic injected scenario for suspicious mfa fatigue.
+attack_evt_0005,2026-01-02T01:04:00+00:00,cloud_access_logs,user_0006,endpoint_0006,privilege_escalation_cloud_role,critical,Synthetic injected scenario for privilege escalation cloud role.
+attack_evt_0006,2026-01-02T01:05:00+00:00,cloud_access_logs,user_0007,endpoint_0007,suspicious_service_account_access,high,Synthetic injected scenario for suspicious service account access.
+attack_evt_0007,2026-01-02T01:06:00+00:00,network_flow_logs,user_0008,endpoint_0008,data_exfiltration_large_download,critical,Synthetic injected scenario for data exfiltration large download.
+attack_evt_0008,2026-01-02T01:07:00+00:00,saas_audit_logs,user_0009,endpoint_0009,suspicious_oauth_consent,medium,Synthetic injected scenario for suspicious oauth consent.
+attack_evt_0009,2026-01-02T01:08:00+00:00,email_security_logs,user_0010,endpoint_0010,phishing_email_click,high,Synthetic injected scenario for phishing email click.
+attack_evt_0010,2026-01-02T01:09:00+00:00,endpoint_events,user_0011,endpoint_0011,endpoint_malware_execution,critical,Synthetic injected scenario for endpoint malware execution.
+attack_evt_0011,2026-01-02T01:10:00+00:00,endpoint_events,user_0012,endpoint_0012,ransomware_precursor_behavior,critical,Synthetic injected scenario for ransomware precursor behavior.
+attack_evt_0012,2026-01-02T01:11:00+00:00,dns_logs,user_0013,endpoint_0013,dns_beaconing,high,Synthetic injected scenario for dns beaconing.
+attack_evt_0013,2026-01-02T01:12:00+00:00,ai_app_security_logs,user_0014,endpoint_0014,ai_prompt_injection_attempt,high,Synthetic injected scenario for ai prompt injection attempt.
+attack_evt_0014,2026-01-02T01:13:00+00:00,ai_app_security_logs,user_0015,endpoint_0015,ai_sensitive_data_request,high,Synthetic injected scenario for ai sensitive data request.
+attack_evt_0015,2026-01-02T01:14:00+00:00,saas_audit_logs,user_0016,endpoint_0016,insider_sensitive_data_access,critical,Synthetic injected scenario for insider sensitive data access.
+attack_evt_0016,2026-01-02T01:15:00+00:00,cloud_access_logs,user_0017,endpoint_0017,cloud_key_exposure,critical,Synthetic injected scenario for cloud key exposure.
+attack_evt_0017,2026-01-02T01:16:00+00:00,endpoint_events,user_0018,endpoint_0018,lateral_movement_sequence,critical,Synthetic injected scenario for lateral movement sequence.
+attack_evt_0018,2026-01-02T01:17:00+00:00,network_flow_logs,user_0019,endpoint_0019,c2_network_pattern,high,Synthetic injected scenario for c2 network pattern.
+attack_evt_0019,2026-01-02T01:18:00+00:00,saas_audit_logs,user_0020,endpoint_0020,mass_file_sharing_public_link,high,Synthetic injected scenario for mass file sharing public link.
+attack_evt_0020,2026-01-02T01:19:00+00:00,identity_auth_logs,user_0021,endpoint_0021,dormant_account_reactivation,medium,Synthetic injected scenario for dormant account reactivation.

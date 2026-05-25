@@ -1,0 +1,11 @@
+sources:
+  - identity_auth_logs
+  - endpoint_events
+  - cloud_access_logs
+  - network_flow_logs
+  - dns_logs
+  - email_security_logs
+  - saas_audit_logs
+  - firewall_logs
+  - ai_app_security_logs
+

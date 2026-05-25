@@ -1,0 +1,11 @@
+rule_id: rule_phishing_email_click
+title: Phishing Email Click
+description: Detects synthetic phishing email click activity.
+log_source: email_security_logs
+detection_logic: scenario_type == 'phishing_email_click' or source-specific threshold
+  pattern
+severity: high
+tactic: Initial Access
+technique: Phishing
+false_positive_notes: Synthetic benign admin activity can resemble this pattern.
+recommended_response: Quarantine message and reset clicked user session.

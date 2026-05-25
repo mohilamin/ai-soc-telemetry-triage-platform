@@ -1,0 +1,6 @@
+weights:
+  critical: 95
+  high: 80
+  medium: 55
+  low: 25
+

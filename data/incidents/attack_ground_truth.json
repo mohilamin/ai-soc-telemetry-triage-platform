@@ -1,0 +1,162 @@
+[
+  {
+    "scenario_id": "scenario_001",
+    "scenario_type": "impossible_travel_login",
+    "expected_detection_ids": "rule_impossible_travel_login",
+    "expected_tactic": "Initial Access",
+    "expected_technique": "Valid Accounts",
+    "expected_severity": "high"
+  },
+  {
+    "scenario_id": "scenario_002",
+    "scenario_type": "password_spray_attack",
+    "expected_detection_ids": "rule_password_spray_attack",
+    "expected_tactic": "Credential Access",
+    "expected_technique": "Password Spraying",
+    "expected_severity": "high"
+  },
+  {
+    "scenario_id": "scenario_003",
+    "scenario_type": "brute_force_against_privileged_user",
+    "expected_detection_ids": "rule_brute_force_against_privileged_user",
+    "expected_tactic": "Credential Access",
+    "expected_technique": "Brute Force",
+    "expected_severity": "critical"
+  },
+  {
+    "scenario_id": "scenario_004",
+    "scenario_type": "suspicious_mfa_fatigue",
+    "expected_detection_ids": "rule_suspicious_mfa_fatigue",
+    "expected_tactic": "Credential Access",
+    "expected_technique": "MFA Fatigue",
+    "expected_severity": "high"
+  },
+  {
+    "scenario_id": "scenario_005",
+    "scenario_type": "privilege_escalation_cloud_role",
+    "expected_detection_ids": "rule_privilege_escalation_cloud_role",
+    "expected_tactic": "Privilege Escalation",
+    "expected_technique": "Cloud Role Modification",
+    "expected_severity": "critical"
+  },
+  {
+    "scenario_id": "scenario_006",
+    "scenario_type": "suspicious_service_account_access",
+    "expected_detection_ids": "rule_suspicious_service_account_access",
+    "expected_tactic": "Defense Evasion",
+    "expected_technique": "Service Account Abuse",
+    "expected_severity": "high"
+  },
+  {
+    "scenario_id": "scenario_007",
+    "scenario_type": "data_exfiltration_large_download",
+    "expected_detection_ids": "rule_data_exfiltration_large_download",
+    "expected_tactic": "Exfiltration",
+    "expected_technique": "Exfiltration Over Web Service",
+    "expected_severity": "critical"
+  },
+  {
+    "scenario_id": "scenario_008",
+    "scenario_type": "suspicious_oauth_consent",
+    "expected_detection_ids": "rule_suspicious_oauth_consent",
+    "expected_tactic": "Persistence",
+    "expected_technique": "OAuth Consent Grant",
+    "expected_severity": "medium"
+  },
+  {
+    "scenario_id": "scenario_009",
+    "scenario_type": "phishing_email_click",
+    "expected_detection_ids": "rule_phishing_email_click",
+    "expected_tactic": "Initial Access",
+    "expected_technique": "Phishing",
+    "expected_severity": "high"
+  },
+  {
+    "scenario_id": "scenario_010",
+    "scenario_type": "endpoint_malware_execution",
+    "expected_detection_ids": "rule_endpoint_malware_execution",
+    "expected_tactic": "Execution",
+    "expected_technique": "Command and Scripting Interpreter",
+    "expected_severity": "critical"
+  },
+  {
+    "scenario_id": "scenario_011",
+    "scenario_type": "ransomware_precursor_behavior",
+    "expected_detection_ids": "rule_ransomware_precursor_behavior",
+    "expected_tactic": "Impact",
+    "expected_technique": "Data Encrypted for Impact",
+    "expected_severity": "critical"
+  },
+  {
+    "scenario_id": "scenario_012",
+    "scenario_type": "dns_beaconing",
+    "expected_detection_ids": "rule_dns_beaconing",
+    "expected_tactic": "Command and Control",
+    "expected_technique": "Application Layer Protocol",
+    "expected_severity": "high"
+  },
+  {
+    "scenario_id": "scenario_013",
+    "scenario_type": "ai_prompt_injection_attempt",
+    "expected_detection_ids": "rule_ai_prompt_injection_attempt",
+    "expected_tactic": "Defense Evasion",
+    "expected_technique": "Prompt Injection",
+    "expected_severity": "high"
+  },
+  {
+    "scenario_id": "scenario_014",
+    "scenario_type": "ai_sensitive_data_request",
+    "expected_detection_ids": "rule_ai_sensitive_data_request",
+    "expected_tactic": "Collection",
+    "expected_technique": "Data from Information Repositories",
+    "expected_severity": "high"
+  },
+  {
+    "scenario_id": "scenario_015",
+    "scenario_type": "insider_sensitive_data_access",
+    "expected_detection_ids": "rule_insider_sensitive_data_access",
+    "expected_tactic": "Collection",
+    "expected_technique": "Data from Local System",
+    "expected_severity": "critical"
+  },
+  {
+    "scenario_id": "scenario_016",
+    "scenario_type": "cloud_key_exposure",
+    "expected_detection_ids": "rule_cloud_key_exposure",
+    "expected_tactic": "Credential Access",
+    "expected_technique": "Unsecured Credentials",
+    "expected_severity": "critical"
+  },
+  {
+    "scenario_id": "scenario_017",
+    "scenario_type": "lateral_movement_sequence",
+    "expected_detection_ids": "rule_lateral_movement_sequence",
+    "expected_tactic": "Lateral Movement",
+    "expected_technique": "Remote Services",
+    "expected_severity": "critical"
+  },
+  {
+    "scenario_id": "scenario_018",
+    "scenario_type": "c2_network_pattern",
+    "expected_detection_ids": "rule_c2_network_pattern",
+    "expected_tactic": "Command and Control",
+    "expected_technique": "Non-Standard Port",
+    "expected_severity": "high"
+  },
+  {
+    "scenario_id": "scenario_019",
+    "scenario_type": "mass_file_sharing_public_link",
+    "expected_detection_ids": "rule_mass_file_sharing_public_link",
+    "expected_tactic": "Exfiltration",
+    "expected_technique": "Cloud Storage Object Discovery",
+    "expected_severity": "high"
+  },
+  {
+    "scenario_id": "scenario_020",
+    "scenario_type": "dormant_account_reactivation",
+    "expected_detection_ids": "rule_dormant_account_reactivation",
+    "expected_tactic": "Initial Access",
+    "expected_technique": "Dormant Account",
+    "expected_severity": "medium"
+  }
+]

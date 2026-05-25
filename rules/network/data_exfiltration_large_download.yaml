@@ -1,0 +1,11 @@
+rule_id: rule_data_exfiltration_large_download
+title: Data Exfiltration Large Download
+description: Detects synthetic data exfiltration large download activity.
+log_source: network_flow_logs
+detection_logic: scenario_type == 'data_exfiltration_large_download' or source-specific
+  threshold pattern
+severity: critical
+tactic: Exfiltration
+technique: Exfiltration Over Web Service
+false_positive_notes: Synthetic benign admin activity can resemble this pattern.
+recommended_response: Contain data system and inspect transfer path.

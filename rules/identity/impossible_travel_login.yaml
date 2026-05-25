@@ -1,0 +1,11 @@
+rule_id: rule_impossible_travel_login
+title: Impossible Travel Login
+description: Detects synthetic impossible travel login activity.
+log_source: identity_auth_logs
+detection_logic: scenario_type == 'impossible_travel_login' or source-specific threshold
+  pattern
+severity: high
+tactic: Initial Access
+technique: Valid Accounts
+false_positive_notes: Synthetic benign admin activity can resemble this pattern.
+recommended_response: Disable session and verify user travel.

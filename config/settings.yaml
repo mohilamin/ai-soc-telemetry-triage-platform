@@ -1,0 +1,8 @@
+project_name: AI SOC Telemetry Triage Platform
+random_seed: 42
+users: 500
+endpoints: 1000
+service_accounts: 200
+cloud_roles: 100
+telemetry_events: 250000
+

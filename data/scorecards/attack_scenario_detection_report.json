@@ -1,0 +1,20 @@
+{
+  "total_events_processed": 250000,
+  "total_alerts": 28,
+  "total_incidents": 20,
+  "alert_to_incident_reduction_rate": 0.2857,
+  "duplicate_alert_rate": 0.2857,
+  "scenario_detection_rate": 1.0,
+  "detection_precision_estimate": 0.91,
+  "detection_recall_estimate": 0.95,
+  "false_positive_probability_average": 0.118,
+  "mean_time_to_detect_minutes": 4,
+  "mean_time_to_triage_minutes": 12,
+  "high_severity_incident_count": 18,
+  "mitre_tactic_coverage_count": 11,
+  "mitre_technique_coverage_count": 20,
+  "analyst_queue_volume": 20,
+  "response_runbook_coverage": 1.0,
+  "attack_scenario_count": 20,
+  "overall_soc_triage_score": 92.4
+}

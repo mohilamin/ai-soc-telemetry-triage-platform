@@ -1,0 +1,11 @@
+rule_id: rule_suspicious_oauth_consent
+title: Suspicious Oauth Consent
+description: Detects synthetic suspicious oauth consent activity.
+log_source: saas_audit_logs
+detection_logic: scenario_type == 'suspicious_oauth_consent' or source-specific threshold
+  pattern
+severity: medium
+tactic: Persistence
+technique: OAuth Consent Grant
+false_positive_notes: Synthetic benign admin activity can resemble this pattern.
+recommended_response: Revoke OAuth grant and review app permissions.

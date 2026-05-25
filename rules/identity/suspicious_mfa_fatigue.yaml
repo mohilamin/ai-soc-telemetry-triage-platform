@@ -1,0 +1,11 @@
+rule_id: rule_suspicious_mfa_fatigue
+title: Suspicious Mfa Fatigue
+description: Detects synthetic suspicious mfa fatigue activity.
+log_source: identity_auth_logs
+detection_logic: scenario_type == 'suspicious_mfa_fatigue' or source-specific threshold
+  pattern
+severity: high
+tactic: Credential Access
+technique: MFA Fatigue
+false_positive_notes: Synthetic benign admin activity can resemble this pattern.
+recommended_response: Revoke sessions and require phishing-resistant MFA.

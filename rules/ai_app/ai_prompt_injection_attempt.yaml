@@ -1,0 +1,11 @@
+rule_id: rule_ai_prompt_injection_attempt
+title: Ai Prompt Injection Attempt
+description: Detects synthetic ai prompt injection attempt activity.
+log_source: ai_app_security_logs
+detection_logic: scenario_type == 'ai_prompt_injection_attempt' or source-specific
+  threshold pattern
+severity: high
+tactic: Defense Evasion
+technique: Prompt Injection
+false_positive_notes: Synthetic benign admin activity can resemble this pattern.
+recommended_response: Block tool call and create AI app incident.

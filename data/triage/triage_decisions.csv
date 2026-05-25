@@ -1,0 +1,21 @@
+queue_id,incident_id,severity,confidence,next_best_action,triage_decision
+queue_00001,incident_00011,critical,0.92,Isolate endpoint and suspend file share access.,escalate
+queue_00002,incident_00003,critical,0.92,Lock privileged account and rotate credentials.,escalate
+queue_00003,incident_00005,critical,0.92,Revert role change and review cloud audit trail.,escalate
+queue_00004,incident_00007,critical,0.92,Contain data system and inspect transfer path.,escalate
+queue_00005,incident_00017,critical,0.92,Isolate hosts and disable lateral credentials.,escalate
+queue_00006,incident_00016,critical,0.92,Revoke key and rotate affected secrets.,escalate
+queue_00007,incident_00010,critical,0.92,Isolate endpoint and collect process evidence.,escalate
+queue_00008,incident_00015,critical,0.92,Escalate to insider risk team.,escalate
+queue_00009,incident_00013,high,0.92,Block tool call and create AI app incident.,escalate
+queue_00010,incident_00019,high,0.92,Remove public links and review SaaS sharing.,escalate
+queue_00011,incident_00018,high,0.92,Block destination and inspect host.,escalate
+queue_00012,incident_00014,high,0.92,Deny response and review data access policy.,escalate
+queue_00013,incident_00001,high,0.92,Disable session and verify user travel.,escalate
+queue_00014,incident_00012,high,0.92,Block domain and inspect endpoint.,escalate
+queue_00015,incident_00002,high,0.92,Block source pattern and reset targeted passwords.,escalate
+queue_00016,incident_00009,high,0.92,Quarantine message and reset clicked user session.,escalate
+queue_00017,incident_00006,high,0.92,Rotate service account key and validate workload identity.,escalate
+queue_00018,incident_00004,high,0.92,Revoke sessions and require phishing-resistant MFA.,escalate
+queue_00019,incident_00008,medium,0.82,Revoke OAuth grant and review app permissions.,escalate
+queue_00020,incident_00020,medium,0.82,Disable dormant account pending owner review.,escalate

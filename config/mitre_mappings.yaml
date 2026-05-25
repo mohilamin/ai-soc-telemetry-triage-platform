@@ -1,0 +1,22 @@
+mappings:
+  impossible_travel_login: {tactic: Initial Access, technique: Valid Accounts}
+  password_spray_attack: {tactic: Credential Access, technique: Password Spraying}
+  brute_force_against_privileged_user: {tactic: Credential Access, technique: Brute Force}
+  suspicious_mfa_fatigue: {tactic: Credential Access, technique: MFA Fatigue}
+  privilege_escalation_cloud_role: {tactic: Privilege Escalation, technique: Cloud Role Modification}
+  suspicious_service_account_access: {tactic: Defense Evasion, technique: Service Account Abuse}
+  data_exfiltration_large_download: {tactic: Exfiltration, technique: Exfiltration Over Web Service}
+  suspicious_oauth_consent: {tactic: Persistence, technique: OAuth Consent Grant}
+  phishing_email_click: {tactic: Initial Access, technique: Phishing}
+  endpoint_malware_execution: {tactic: Execution, technique: Command and Scripting Interpreter}
+  ransomware_precursor_behavior: {tactic: Impact, technique: Data Encrypted for Impact}
+  dns_beaconing: {tactic: Command and Control, technique: Application Layer Protocol}
+  ai_prompt_injection_attempt: {tactic: Defense Evasion, technique: Prompt Injection}
+  ai_sensitive_data_request: {tactic: Collection, technique: Data from Information Repositories}
+  insider_sensitive_data_access: {tactic: Collection, technique: Data from Local System}
+  cloud_key_exposure: {tactic: Credential Access, technique: Unsecured Credentials}
+  lateral_movement_sequence: {tactic: Lateral Movement, technique: Remote Services}
+  c2_network_pattern: {tactic: Command and Control, technique: Non-Standard Port}
+  mass_file_sharing_public_link: {tactic: Exfiltration, technique: Cloud Storage Object Discovery}
+  dormant_account_reactivation: {tactic: Initial Access, technique: Dormant Account}
+

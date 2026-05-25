@@ -1,0 +1,7 @@
+time_window_minutes: 60
+entity_fields:
+  - user_id
+  - endpoint_id
+  - source_ip
+  - cloud_account_id
+

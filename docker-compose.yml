@@ -1,0 +1,7 @@
+services:
+  soc-platform:
+    build: .
+    command: python -m src.pipeline.run_all
+    volumes:
+      - .:/app
+

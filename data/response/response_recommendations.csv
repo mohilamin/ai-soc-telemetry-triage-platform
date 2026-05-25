@@ -1,0 +1,21 @@
+incident_id,runbook,recommended_response,escalation_owner
+incident_00011,ransomware-precursor.md,Isolate endpoint and suspend file share access.,SOC Tier 2
+incident_00003,generic-soc-investigation.md,Lock privileged account and rotate credentials.,SOC Tier 2
+incident_00005,cloud-privilege-escalation.md,Revert role change and review cloud audit trail.,SOC Tier 2
+incident_00007,data-exfiltration.md,Contain data system and inspect transfer path.,SOC Tier 2
+incident_00017,generic-soc-investigation.md,Isolate hosts and disable lateral credentials.,SOC Tier 2
+incident_00016,generic-soc-investigation.md,Revoke key and rotate affected secrets.,SOC Tier 2
+incident_00010,endpoint-malware.md,Isolate endpoint and collect process evidence.,SOC Tier 2
+incident_00015,insider-data-access.md,Escalate to insider risk team.,SOC Tier 2
+incident_00013,ai-prompt-injection.md,Block tool call and create AI app incident.,SOC Tier 2
+incident_00019,generic-soc-investigation.md,Remove public links and review SaaS sharing.,SOC Tier 2
+incident_00018,generic-soc-investigation.md,Block destination and inspect host.,SOC Tier 2
+incident_00014,generic-soc-investigation.md,Deny response and review data access policy.,SOC Tier 2
+incident_00001,impossible-travel-login.md,Disable session and verify user travel.,SOC Tier 2
+incident_00012,generic-soc-investigation.md,Block domain and inspect endpoint.,SOC Tier 2
+incident_00002,password-spray.md,Block source pattern and reset targeted passwords.,SOC Tier 2
+incident_00009,phishing-click.md,Quarantine message and reset clicked user session.,SOC Tier 2
+incident_00006,suspicious-service-account.md,Rotate service account key and validate workload identity.,SOC Tier 2
+incident_00004,mfa-fatigue.md,Revoke sessions and require phishing-resistant MFA.,SOC Tier 2
+incident_00008,generic-soc-investigation.md,Revoke OAuth grant and review app permissions.,SOC Tier 1
+incident_00020,generic-soc-investigation.md,Disable dormant account pending owner review.,SOC Tier 1

@@ -1,0 +1,21 @@
+queue_id,incident_id,priority_rank,severity,confidence,assigned_team,recommended_sla_minutes,investigation_summary,next_best_action,false_positive_probability,business_impact
+queue_00001,incident_00011,1,critical,0.92,SOC Tier 2,15,Investigate ransomware_precursor_behavior involving user_0012.,Isolate endpoint and suspend file share access.,0.116,High
+queue_00002,incident_00003,2,critical,0.92,SOC Tier 2,15,Investigate brute_force_against_privileged_user involving user_0004.,Lock privileged account and rotate credentials.,0.116,High
+queue_00003,incident_00005,3,critical,0.92,SOC Tier 2,15,Investigate privilege_escalation_cloud_role involving user_0006.,Revert role change and review cloud audit trail.,0.116,High
+queue_00004,incident_00007,4,critical,0.92,SOC Tier 2,15,Investigate data_exfiltration_large_download involving user_0008.,Contain data system and inspect transfer path.,0.116,High
+queue_00005,incident_00017,5,critical,0.92,SOC Tier 2,15,Investigate lateral_movement_sequence involving user_0018.,Isolate hosts and disable lateral credentials.,0.116,High
+queue_00006,incident_00016,6,critical,0.92,SOC Tier 2,15,Investigate cloud_key_exposure involving user_0017.,Revoke key and rotate affected secrets.,0.116,High
+queue_00007,incident_00010,7,critical,0.92,SOC Tier 2,15,Investigate endpoint_malware_execution involving user_0011.,Isolate endpoint and collect process evidence.,0.116,High
+queue_00008,incident_00015,8,critical,0.92,SOC Tier 2,15,Investigate insider_sensitive_data_access involving user_0016.,Escalate to insider risk team.,0.116,High
+queue_00009,incident_00013,9,high,0.92,SOC Tier 2,30,Investigate ai_prompt_injection_attempt involving user_0014.,Block tool call and create AI app incident.,0.116,High
+queue_00010,incident_00019,10,high,0.92,SOC Tier 2,30,Investigate mass_file_sharing_public_link involving user_0020.,Remove public links and review SaaS sharing.,0.116,High
+queue_00011,incident_00018,11,high,0.92,SOC Tier 2,30,Investigate c2_network_pattern involving user_0019.,Block destination and inspect host.,0.116,High
+queue_00012,incident_00014,12,high,0.92,SOC Tier 2,30,Investigate ai_sensitive_data_request involving user_0015.,Deny response and review data access policy.,0.116,High
+queue_00013,incident_00001,13,high,0.92,SOC Tier 2,30,Investigate impossible_travel_login involving user_0002.,Disable session and verify user travel.,0.116,High
+queue_00014,incident_00012,14,high,0.92,SOC Tier 2,30,Investigate dns_beaconing involving user_0013.,Block domain and inspect endpoint.,0.116,High
+queue_00015,incident_00002,15,high,0.92,SOC Tier 2,30,Investigate password_spray_attack involving user_0003.,Block source pattern and reset targeted passwords.,0.116,High
+queue_00016,incident_00009,16,high,0.92,SOC Tier 2,30,Investigate phishing_email_click involving user_0010.,Quarantine message and reset clicked user session.,0.116,High
+queue_00017,incident_00006,17,high,0.92,SOC Tier 2,30,Investigate suspicious_service_account_access involving user_0007.,Rotate service account key and validate workload identity.,0.116,High
+queue_00018,incident_00004,18,high,0.92,SOC Tier 2,30,Investigate suspicious_mfa_fatigue involving user_0005.,Revoke sessions and require phishing-resistant MFA.,0.116,High
+queue_00019,incident_00008,19,medium,0.82,SOC Tier 1,120,Investigate suspicious_oauth_consent involving user_0009.,Revoke OAuth grant and review app permissions.,0.136,Moderate
+queue_00020,incident_00020,20,medium,0.82,SOC Tier 1,120,Investigate dormant_account_reactivation involving user_0021.,Disable dormant account pending owner review.,0.136,Moderate

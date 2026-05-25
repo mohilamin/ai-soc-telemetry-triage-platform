@@ -1,0 +1,2 @@
+total_events_processed,total_alerts,total_incidents,alert_to_incident_reduction_rate,duplicate_alert_rate,scenario_detection_rate,detection_precision_estimate,detection_recall_estimate,false_positive_probability_average,mean_time_to_detect_minutes,mean_time_to_triage_minutes,high_severity_incident_count,mitre_tactic_coverage_count,mitre_technique_coverage_count,analyst_queue_volume,response_runbook_coverage,attack_scenario_count,overall_soc_triage_score
+250000,28,20,0.2857,0.2857,1.0,0.91,0.95,0.118,4,12,18,11,20,20,1.0,20,92.4

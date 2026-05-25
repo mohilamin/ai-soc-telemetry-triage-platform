@@ -1,0 +1,11 @@
+rule_id: rule_c2_network_pattern
+title: C2 Network Pattern
+description: Detects synthetic c2 network pattern activity.
+log_source: network_flow_logs
+detection_logic: scenario_type == 'c2_network_pattern' or source-specific threshold
+  pattern
+severity: high
+tactic: Command and Control
+technique: Non-Standard Port
+false_positive_notes: Synthetic benign admin activity can resemble this pattern.
+recommended_response: Block destination and inspect host.

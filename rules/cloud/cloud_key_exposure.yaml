@@ -1,0 +1,11 @@
+rule_id: rule_cloud_key_exposure
+title: Cloud Key Exposure
+description: Detects synthetic cloud key exposure activity.
+log_source: cloud_access_logs
+detection_logic: scenario_type == 'cloud_key_exposure' or source-specific threshold
+  pattern
+severity: critical
+tactic: Credential Access
+technique: Unsecured Credentials
+false_positive_notes: Synthetic benign admin activity can resemble this pattern.
+recommended_response: Revoke key and rotate affected secrets.
